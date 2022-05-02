@@ -14,6 +14,7 @@ Finally, the updated code was converted to python and included as Jupyter notebo
 Discussion of the process of updating and translating the code and replication of results is included in the PDF file.
 
 
+
 References:
 
 Shalizi, C. R., & Thomas, A. C. (2011). Homophily and Contagion Are Generically Confounded in Observational Social Network Studies. Sociological Methods & Research,    40(2), 211–239. https://doi.org/10.1177/0049124111404820
