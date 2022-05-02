@@ -67,9 +67,7 @@ asymmetry.sim <- function (num.nodes=400, scale=3, offset=0,
   
 }
 
-asymmetry.sim()
-
-result <- replicate(5000, asymmetry.sim(friend=1, time.trend=0.3, nominate.by="distance"))
+result <- replicate(5000, asymmetry.sim(friend=1, time.trend=0.3, nominate.by="not-distance"))
 
 dim(result)
 
@@ -77,4 +75,4 @@ dim(result)
 par(mfrow=c(1,2))
 hist(result[3,,], main="Effect of Phantom `Influencer' on `Influenced' in Time Series", xlab="Regression Coefficient"); 
 hist(result[10,,], main="z-score of Directional Difference", xlab=paste("Proportion greater than 0:", mean(result[10,,]>0)))
-dev.off()
+# dev.off()
