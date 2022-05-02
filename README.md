@@ -6,7 +6,7 @@ Updated and converted to Python for results testing and verfication by Andy Edin
 Authors' original R code is available at: https://www.stat.cmu.edu/~cshalizi/homophily-confounding/
 This original code is included in this repo in "neutral-diffusion_original.R", "asymmetry_original.R"
 
-The original code has issues running in R version 4.0.2, and so was updated to remove dependency on deprecated functions among other bug fixes. 
+The original code has issues running in R version 4.0.2, and so was updated to remove dependency on deprecated functions among other minor bug fixes. 
 The updated R code is included in this repo in "neutral-diffusion_updated.R", "asymmetry_updated.R"
 
 Finally, the updated code was converted to python and included as Jupyter notebooks "asymmetry.ipynb", "neutral-diffusion.ipynb"
