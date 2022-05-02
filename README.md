@@ -10,7 +10,7 @@ The updated R code is included in this repo in "neutral-diffusion_updated.R", "a
 
 Finally, the updated code was converted to python and included as Jupyter notebooks "asymmetry.ipynb", "neutral-diffusion.ipynb"
 
-Discussion of the process of updating and translating the code and replication of results is included in the PDF file.
+Discussion of the process of updating and translating the code and replication of results will be included.
 
 
 
